@@ -1,0 +1,24 @@
+{
+  "name": "quikgpt",
+  "version": "0.0.0",
+  "description": "QuikGPT is an advanced AI personal assistant designed to help users manage everyday tasks and enhance productivity effortlessly with GPT-3.5 and GPT-4",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "tauri": "tauri"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "solid-js": "^1.7.0",
+    "@tauri-apps/api": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.10",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1",
+    "vite-plugin-solid": "^2.5.0",
+    "@tauri-apps/cli": "^1.2.2"
+  }
+}
