@@ -2,6 +2,7 @@ import { createSignal } from "solid-js";
 import logo from "./assets/logo.svg";
 import { invoke } from "@tauri-apps/api/tauri";
 import TitleBar from "./componets/TitleBar";
+import Container from "./componets/Container";
 
 function App() {
   const [greetMsg, setGreetMsg] = createSignal("");
@@ -15,9 +16,7 @@ function App() {
   return (
     <>
       <TitleBar />
-      <div class="container">
-        <h1>Welcome to QuikGPT!</h1>
-      </div>
+      <Container />
     </>
   );
 }

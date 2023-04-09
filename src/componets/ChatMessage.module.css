@@ -1,0 +1,15 @@
+p.chatMessages {
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 40%;
+}
+
+p.chatMessages.ai {
+    align-self: flex-start;
+    background-color: #2B3035;
+}
+
+p.chatMessages.self {
+    align-self: flex-end;
+    background-color: #009DF8;
+}

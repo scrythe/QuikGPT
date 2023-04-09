@@ -1,0 +1,34 @@
+section.chatSidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #2B3035;
+  height: 100%;
+  width: 250px;
+}
+
+button {
+  text-align: start;
+}
+
+button.newChatBtn {
+  margin: 20px;
+  background-color: #30353B;
+}
+
+button.openChatBtn {
+  margin: 5px 20px;
+  background-color: #2B3035;
+}
+
+button.openChatBtn.selected {
+  background-color: #49515A;
+}
+
+button:hover {
+  border-color: transparent;
+  background-color: #373D43;
+}
+
+button:active {
+  background-color: #2B3035;
+}
